@@ -1,5 +1,5 @@
 {
-  "name": "@XXX/xxx-engine",
+  "name": "@xxx/xxx-engine",
   "version": "0.0.1",
   "description": "XXX",
   "files": [
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/S-A-R-C/XXX.git"
+    "url": "git+https://github.com/S-A-R-C/xxx-engine.git"
   },
   "author": "S-A-R-C",
   "license": "MIT",
@@ -23,9 +23,9 @@
     "> 0.5%, last 2 versions, Firefox ESR, not dead"
   ],
   "bugs": {
-    "url": "https://github.com/S-A-R-C/XXX/issues"
+    "url": "https://github.com/S-A-R-C/xxx-engine/issues"
   },
-  "homepage": "https://github.com/S-A-R-C/XXX#readme",
+  "homepage": "https://github.com/S-A-R-C/xxx-engine#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
