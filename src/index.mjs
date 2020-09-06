@@ -43,5 +43,5 @@ export function returnFalse() { //
 
 export default {
     returnTrue,
-    returnFalse
-}
+    returnFalse,
+};
