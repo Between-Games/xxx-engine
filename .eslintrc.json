@@ -1,0 +1,51 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "google"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "rules": {
+        "linebreak-style": 0,
+        "indent": [
+            "error",
+            4
+        ],
+        "no-multi-spaces": [
+            "error",
+            {
+                "ignoreEOLComments": true
+            }
+        ],
+        "max-len": [
+            "error",
+            {
+                "code": 120,
+                "ignoreUrls": true,
+                "ignoreStrings": true,
+                "ignoreComments": true,
+                "ignoreRegExpLiterals": true,
+                "ignoreTrailingComments": true,
+                "ignoreTemplateLiterals": true
+            }
+        ],
+        "require-jsdoc": [
+            "error",
+            {
+                "require": {
+                    "MethodDefinition": false,
+                    "ClassDeclaration": false,
+                    "FunctionExpression": false,
+                    "FunctionDeclaration": false,
+                    "ArrowFunctionExpression": false,
+                }
+            }
+        ]
+    }
+}
