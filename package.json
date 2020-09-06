@@ -1,0 +1,41 @@
+{
+  "name": "@xxx/xxx-engine",
+  "version": "0.0.1",
+  "description": "XXX",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "src/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "npx mocha",
+    "build": "npx webpack --watch",
+    "prepublishOnly": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S-A-R-C/xxx-engine.git"
+  },
+  "author": "S-A-R-C",
+  "license": "MIT",
+  "browserslist": [
+    "> 0.5%, last 2 versions, Firefox ESR, not dead"
+  ],
+  "bugs": {
+    "url": "https://github.com/S-A-R-C/xxx-engine/issues"
+  },
+  "homepage": "https://github.com/S-A-R-C/xxx-engine#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "chai": "^4.2.0",
+    "copy-webpack-plugin": "^6.1.0",
+    "eslint": "^7.8.1",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^8.1.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
