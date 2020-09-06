@@ -1,5 +1,5 @@
 {
-  "name": "@XXX/broadcast-engine",
+  "name": "@XXX/xxx-engine",
   "version": "0.0.1",
   "description": "XXX",
   "files": [
@@ -27,7 +27,10 @@
   },
   "homepage": "https://github.com/S-A-R-C/XXX#readme",
   "devDependencies": {
+    "copy-webpack-plugin": "^6.1.0",
     "eslint": "^7.8.1",
-    "eslint-config-google": "^0.14.0"
+    "eslint-config-google": "^0.14.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
