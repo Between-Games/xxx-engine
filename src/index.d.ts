@@ -8,7 +8,7 @@
 export function returnTrue(): boolean;
 export function returnFalse(): boolean;
 
-declare module 'xxx' {
+declare module 'xxxEngine' {
     export function returnTrue(): boolean;
     export function returnFalse(): boolean;
 }
