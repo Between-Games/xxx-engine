@@ -35,7 +35,7 @@ describe('Test', function() {
     // ║ ║ ║ ╚═╗║ ╚═════╗   ║ ║   ║ ╚═══╝ ║║ ║ ║ ╚═╗║ ║║ ╚╝ ║            ║ ║   ║ ║ ║ ╚═╗║ ╚═══╝ ║║ ╚═════╗
     // ╚═╝ ╚═══╝╚═══════╝   ╚═╝   ╚═══════╝╚═╝ ╚═══╝╚═╝╚════╝            ╚═╝   ╚═╝ ╚═══╝╚═══════╝╚═══════╝
 
-    describe('#returnTrue()', function () {
+    describe('#returnTrue()', function() {
         it('Should return true when function is called', () => {
             expect(xxxEngine.returnTrue()).to.equal(true);
         });
@@ -48,7 +48,7 @@ describe('Test', function() {
     // ║ ║ ║ ╚═╗║ ╚═════╗   ║ ║   ║ ╚═══╝ ║║ ║ ║ ╚═╗║ ║║ ╚╝ ║         ║ ║      ║ ║   ║ ║║ ╚═════╗╔═════╝ ║║ ╚═════╗
     // ╚═╝ ╚═══╝╚═══════╝   ╚═╝   ╚═══════╝╚═╝ ╚═══╝╚═╝╚════╝         ╚═╝      ╚═╝   ╚═╝╚═══════╝╚═══════╝╚═══════╝
 
-    describe('#returnFalse()', function () {
+    describe('#returnFalse()', function() {
         it('Should return false when function is called', () => {
             expect(xxxEngine.returnFalse()).to.equal(false);
         });
