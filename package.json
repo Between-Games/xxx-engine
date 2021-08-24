@@ -15,17 +15,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/S-A-R-C/xxx-engine.git"
+    "url": "git+https://github.com/Between-Games/xxx-engine.git"
   },
-  "author": "S-A-R-C",
+  "author": "Gabriel.Roy@between.games",
   "license": "MIT",
   "browserslist": [
     "> 0.5%, last 2 versions, Firefox ESR, not dead"
   ],
   "bugs": {
-    "url": "https://github.com/S-A-R-C/xxx-engine/issues"
+    "url": "https://github.com/Between-Games/xxx-engine/issues"
   },
-  "homepage": "https://github.com/S-A-R-C/xxx-engine#readme",
+  "homepage": "https://github.com/Between-Games/xxx-engine#readme",
   "dependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",

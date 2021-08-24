@@ -18,9 +18,9 @@ Upcoming details...
 
 ## Authors
 
-* Gabriel Roy - Repository Owner - [S-A-R-C](https://github.com/S-A-R-C)
+* Gabriel Roy - Repository Owner - [Gabriel.Roy@between.games](https://github.com/Between-Games)
 
-See also the list of [contributors](https://github.com/S-A-R-C/xxx-engine/graphs/contributors) who are linked to this project.
+See also the list of [contributors](https://github.com/Between-Games/xxx-engine/graphs/contributors) who are linked to this project.
 
 ## License
 
