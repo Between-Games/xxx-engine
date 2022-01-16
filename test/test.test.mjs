@@ -14,7 +14,7 @@
 // ╔══╝ ╚══╗║ ║║ ║║ ║║ ║      ║ ╚═══╝ ║║ ║ ║ ╚═╗   ║ ║
 // ╚═══════╝╚═╝╚═╝╚═╝╚═╝      ╚═══════╝╚═╝ ╚═══╝   ╚═╝
 
-import xxxEngine from '../dist/index.js';
+import * as xxxEngine from '../dist/index.js';
 
 import chai from 'chai';
 

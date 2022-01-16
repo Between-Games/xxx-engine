@@ -5,8 +5,8 @@
   "files": [
     "dist"
   ],
+  "type": "module",
   "main": "dist/index.js",
-  "module": "src/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "npx mocha",
