@@ -1,7 +1,7 @@
-const path = require('path');
-const CopyPlugin = require('copy-webpack-plugin');
+import CopyPlugin from 'copy-webpack-plugin';
+import path from 'path';
 
-module.exports = {
+export default {
     mode: 'production',
     entry: './src/index.mjs',
 
@@ -14,10 +14,15 @@ module.exports = {
 
     output: {
         filename: 'index.js',
-        library: 'xxxEngine',
-        libraryTarget: 'umd',
-        globalObject: 'this',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(path.resolve(path.dirname('')), 'dist'),
+
+        library: {
+            type: 'module',
+        },
+    },
+
+    experiments: {
+        outputModule: true,
     },
 
     plugins: [
